@@ -29,17 +29,19 @@ opsci-strapi-frontend est le dossier qui contient le frontend.
 
 ### INFORMATIONS : 
 
+Pour le frontend :
 - **frontend :** opsci-strapi-frontend
 - **port du frontend :** 5173
 - **adresse IP :** Network : http://192.168.128.2:5173/ et Local : http://localhost:5173/
 - **nom du conteneur :** opsci-strapi-frontend-1
 
-
+Pour le backend : 
 - **backend :** mana
 - **port du backend :** 1337
 - **adresse IP :** http://localhost:1337
 - **nom du conteneur :** mana-1
 
+Pour la base de données : 
 - **base de données :** PostgreSQL
 - **nom du conteneur :** postgres-1
 
