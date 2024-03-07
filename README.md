@@ -11,11 +11,11 @@ Pour ce projet 1 d'OPSCI, on a décider de faire un docker-compose ce qui facili
   
 (Pour déployer la base de données nécessaire à strapi, il faut lancer la commande et configurer son propre mot de passe et username)
 
--**Etape 2 : créer un projet strapi** yarn create strapi-app ${project-name}
+- **Etape 2 : créer un projet strapi** yarn create strapi-app ${project-name}
 
 (il faut suivre les instructions demandés à la suite de cette commande en choissisant le mode avancé puis séléctionné postgresql)
 
--**Etape 3 : suivre les commande dans le fichier script.sh** 
+- **Etape 3 : suivre les commande dans le fichier script.sh** 
 
 
 ### mana : 
