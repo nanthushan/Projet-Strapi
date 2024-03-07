@@ -7,11 +7,11 @@ Pour ce projet 1 d'OPSCI, on a décider de faire un docker-compose ce qui facili
 
 ### Prérequis : 
 
-- **Etape 1 : déployer la base de données** docker run -dit -p 5432:5432 -e POSTGRES_PASSWORD=safepassword -e POSTGRES_USER=strapi --name strapi-pg postgres
+- **Etape 1 : déployer la base de données :** docker run -dit -p 5432:5432 -e POSTGRES_PASSWORD=safepassword -e POSTGRES_USER=strapi --name strapi-pg postgres
   
 (Pour déployer la base de données nécessaire à strapi, il faut lancer la commande et configurer son propre mot de passe et username)
 
-- **Etape 2 : créer un projet strapi** yarn create strapi-app ${project-name}
+- **Etape 2 : créer un projet strapi :** yarn create strapi-app ${project-name}
 
 (il faut suivre les instructions demandés à la suite de cette commande en choissisant le mode avancé puis séléctionné postgresql)
 
